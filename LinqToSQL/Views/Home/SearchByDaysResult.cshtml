@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Search Result";
+}
+
+<h2>Search Result</h2>
+
+<h3>Forms</h3>
+
+<table class="table">
+
+    <tr>
+        <th>ID</th>
+        <th>End Date</th>
+    </tr>
+
+
+    @foreach (var form in ViewBag.forms)
+    {
+        <tr>
+            <td>@form.ID</td>
+            <td>@form.EndDate</td>
+        </tr>
+    }
+</table>
+
+<div>
+    @Html.ActionLink("Search Again?", "SearchByDays")
+</div>

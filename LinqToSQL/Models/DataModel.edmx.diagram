@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="29665bc9ea4241e2be181f1acc6586c2" Name="Diagram1">
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Action" Width="1.5" PointX="13" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Branch" Width="1.5" PointX="10.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Department" Width="1.5" PointX="10.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Employee" Width="1.5" PointX="13" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Employee_Role" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Employee_RoleProgram" Width="1.5" PointX="15.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_EmployeeCategory" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Goal" Width="1.5" PointX="2.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_HeadDepartment" Width="1.5" PointX="8.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Job" Width="1.5" PointX="10.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Log" Width="1.5" PointX="18.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Page" Width="1.5" PointX="13" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Program" Width="1.5" PointX="10.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Role" Width="1.5" PointX="10.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Role_Page" Width="1.5" PointX="15.25" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.CU_Role_Program" Width="1.5" PointX="13" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_Bank" Width="1.5" PointX="1.5" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_BankAccount" Width="1.5" PointX="3.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_BankDirectForm" Width="1.5" PointX="6" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_BankRepresentative" Width="1.5" PointX="0.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_BankSheet" Width="1.5" PointX="3.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_BankSheetSetting" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_BonusPercentage" Width="1.5" PointX="4.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_City" Width="1.5" PointX="1.5" PointY="38" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_Donor" Width="1.5" PointX="0.75" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_DonorBankAccount" Width="1.5" PointX="0.75" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_DonorPaymentAmount" Width="1.5" PointX="6" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_Form" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_FormBatchesAmount" Width="1.5" PointX="8.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_FormDelayedReason" Width="1.5" PointX="5.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_FormDirectedTo" Width="1.5" PointX="0.75" PointY="47" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_FormPackageProject" Width="1.5" PointX="8.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_FormStatus" Width="1.5" PointX="0.75" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_FormTrippedReason" Width="1.5" PointX="0.75" PointY="51.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_GalleryType" Width="1.5" PointX="3.75" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_Log" Width="1.5" PointX="15.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_Notification" Width="1.5" PointX="6" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_NotificationType" Width="1.5" PointX="3.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_NotificationUser" Width="1.5" PointX="8.25" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_Package" Width="1.5" PointX="1.5" PointY="57.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_PackageProjectDetail" Width="1.5" PointX="6" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_PackageVersion" Width="1.5" PointX="0.75" PointY="54" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_PaymentStatus" Width="1.5" PointX="0.75" PointY="60.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_PaymentType" Width="1.5" PointX="0.75" PointY="62.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_Project" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_ProjectAchievements" Width="1.5" PointX="6" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_ProjectGallery" Width="1.5" PointX="6" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_Representative" Width="1.5" PointX="1.5" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_RepresentativeBonus" Width="1.5" PointX="8.25" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_RepresentativeType" Width="1.5" PointX="1.5" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_SimilarProjects" Width="1.5" PointX="3" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_State" Width="1.5" PointX="1.5" PointY="40.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QvApp_RawdaDeductionModel.DUC_Unit" Width="1.5" PointX="3.75" PointY="6.125" IsExpanded="true" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Action_CU_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Log_CU_Action" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Log_CU_Action" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Employee_CU_Branch" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Department_CU_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Department_CU_HeadDepartment" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Employee_CU_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Employee_CU_EmployeeCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Employee_CU_HeadDepartment" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Employee_CU_Job" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Employee_RoleProgram_CU_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Log_CU_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Log_CU_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Employee_RoleProgram_CU_Role_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_HeadDepartment_CU_HeadDepartment" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Log_CU_Page" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Page_CU_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Role_Page_CU_Page" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Log_CU_Page" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Role_Program_CU_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Role_Program_CU_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_CU_Role_Page_CU_Role_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_BankAccount_DUC_Bank" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_BankDirectForm_DUC_Bank" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_BankRepresentative_DUC_Bank" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_BankSheet_DUC_Bank" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_DonorBankAccount_DUC_Bank" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_BankSheet_DUC_BankAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_DonorPaymentAmount_DUC_BankAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_BankDirectForm_DUC_BankSheet" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_BankRepresentative_DUC_Representative" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_BankRepresentative_DUC_RepresentativeType" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Form_DUC_BankRepresentative" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Form_DUC_BankRepresentative1" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_RepresentativeBonus_DUC_BankRepresentative" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_DonorPaymentAmount_DUC_BankSheet" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Donor_DUC_City" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_State_DUC_City" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Donor_DUC_State" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_DonorBankAccount_DUC_Donor" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Form_DUC_Donor" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Notification_DUC_Donor" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_NotificationUser_DUC_Donor" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_DonorPaymentAmount_DUC_DonorBankAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Form_DUC_DonorBankAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_FormBatchesAmount_DUC_DonorPaymentAmount" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Form_DUC_Form" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Form_DUC_FormDirectedTo" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Form_DUC_FormStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Form_DUC_FormTrippedReason" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Form_DUC_PackageDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Form_DUC_PaymentStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Form_DUC_PaymentType" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Form_DUC_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_FormBatchesAmount_DUC_Form" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_FormPackageProject_DUC_Form" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_RepresentativeBonus_DUC_Form" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_FormPackageProject_DUC_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_FormPackageProject_DUC_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_ProjectGallery_DUC_GalleryType" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_Notification_DUC_NotificationType" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_NotificationUser_DUC_Notification" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_PackageDetail_DUC_Package" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_PackageProjectDetail_DUC_PackageDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_PackageProjectDetail_DUC_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_ProjectAchievements_DUC_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_ProjectGallery_DUC_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_SimilarProject_DUC_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_SimilarProject_DUC_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="QvApp_RawdaDeductionModel.FK_DUC_ProjectAchievements_DUC_Unit" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

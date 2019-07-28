@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h3>Forms</h3>
+
+<table class="table">
+
+    <tr>
+        <th>ID</th>
+        <th>Amount</th>
+    </tr>
+
+
+    @foreach (var form in ViewBag.forms)
+    {
+        <tr>
+            <td>@form</td>
+        </tr>
+    }
+</table>

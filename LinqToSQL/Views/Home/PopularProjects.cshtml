@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "PopularProjects";
+}
+
+<h2>PopularProjects</h2>
+
+<table class="table">
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Number of forms</td>
+    </tr>
+
+    @foreach(var form in ViewBag.forms)
+    {
+        <tr>
+            <td>@form.ID</td>
+            <td>@form.Name</td>
+            <td>@form.NumberOfForms</td>
+        </tr>
+    }
+</table>
+
+<div>
+    @Html.ActionLink("Back","Index")
+</div>
